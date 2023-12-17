@@ -13,7 +13,7 @@ class Calculator:
         return self.argument1 - self.argument2
 
     def multiplication(self):
-        return self.argument1 * self.argument2
+        return (self.argument1) * (self.argument2)
 
     def division(self):
         if self.argument2 != 0:
